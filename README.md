@@ -9,6 +9,7 @@ This repository serves as a record of my journey. It documents the **key command
 
 ### Key Takeaways
 - Mastered core Linux commands: `ssh`, `ls`, `cat`, `grep`, `find`, `awk`, `sed`, `chmod`, `tar`, `zip`, `file`, and more.
+- e.g to connect to the overthewire server, I used the following synthax: `ssh bnadit0@bandit.labs.overthewire.org -p 2200` 
 - Gained strong skills in file & directory manipulation, permission management, text processing with pipes/redirection, and basic Bash concepts.
 - Built a practical problem-solving mindset by reading `man` pages, experimenting, debugging, and iterating on solutions.
 - Improved terminal comfort significantly — skills I now apply daily in TryHackMe SOC Level 1 rooms and small Python scripting projects.
