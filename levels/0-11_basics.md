@@ -1,6 +1,6 @@
 # Levels 0-11: SSH Basics & File Navigation
 These levels build core terminal comfort.
-•  Level 0: Connect via SSH to the Bandit server (username bandit0, password bandit0).
+•  Level 0: Connect via SSH to the Bandit server (username **bandit0**, password **bandit0**).
     •  Key takeaway: SSH syntax and remote login basics.
     •  Real-world use: Remote server access in IT Support or SOC troubleshooting.
 •  Level 1–2: Reading files (`cat` readme), handling tricky filenames (file starting with -).
