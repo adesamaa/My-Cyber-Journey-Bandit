@@ -16,10 +16,13 @@ This repository serves as a record of my journey. It documents the **key command
 ### Repository Structure
 - `LEVELS/` → Summarized write-ups and notes for selected levels (grouped for brevity)
 - `README.md` → This overview
+- <img width="1920" height="922" alt="bndit levels" src="https://github.com/user-attachments/assets/462369af-316c-4b6e-ab67-b829f30e1c30" />
+<img width="1920" height="922" alt="bandit successful completion" src="https://github.com/user-attachments/assets/db81d4ba-ecd3-4625-93e8-3b6dfa308a1d" />
 
 ### Why Bandit Matters for My Journey
 Completing Bandit gave me hands-on experience with tools and techniques directly useful in:
 - **SOC Analyst roles** — using `grep`, `awk`, and pipes for log analysis and alert triage
+
 - **IT Support / Network Support** — troubleshooting file permissions, finding hidden files, and remote access via SSH
 - **General Linux administration** — managing files, permissions, and basic scripting
 
