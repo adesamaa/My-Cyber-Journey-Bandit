@@ -14,7 +14,7 @@ This repository serves as a record of my journey. It documents the **key command
 - Improved terminal comfort significantly — skills I now apply daily in TryHackMe SOC Level 1 rooms and small Python scripting projects.
 
 ### Repository Structure
-- `LEVELS/` → Summarized write-ups and notes for selected levels (grouped for brevity)
+- `levels/` → Summarized write-ups and notes for selected levels (grouped for brevity)
 - `README.md` → This overview
 - <img width="1920" height="922" alt="bndit levels" src="https://github.com/user-attachments/assets/462369af-316c-4b6e-ab67-b829f30e1c30" />
 <img width="1920" height="922" alt="bandit successful completion" src="https://github.com/user-attachments/assets/db81d4ba-ecd3-4625-93e8-3b6dfa308a1d" />
