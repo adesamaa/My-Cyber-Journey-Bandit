@@ -1,20 +1,28 @@
 # Levels 0-11: SSH Basics & File Navigation
-These levels help to build core terminal comfort.
-•  Level 0: Connect via SSH to the Bandit server (username **bandit0**, password **bandit0**).
-    •  Key takeaway: SSH syntax and remote login basics.
-    •  Real-world use: Remote server access in IT Support or SOC troubleshooting.
-    
-•  Level 1–2: Reading files (`cat` readme), handling tricky filenames (file starting with -).
-    •  Key takeaway: `ls`, `cat`, and dealing with special characters in filenames.
-    •  Real-world use: Finding and reading config/logs when filenames are unusual.
-    I got stuck for about 10 minutes figuring out how to navigate the filename with '-' but learned to use "cat < -" for it
-    
-•  Level 3–5: Hidden files (`ls -a`), spaces in filenames, finding the human-readable file among many.
-    •  Key takeaway: `ls -a` for hidden files, quoting filenames with spaces.
-    •  Real-world use: Locating hidden config files or logs during investigations.
-    
-•  Level 6–11: Finding files by size, owner, permissions, or location; basic string searching.
-    •  Key takeaway: `find`, `ls -l`, `file` command, and simple filtering.
-    •  Real-world use: Locating suspicious files or logs on a system quickly.
-    #`ls -l` gives full list of the items in the present directory with their permissions, owners and group owners.
+These early levels helped me get comfortable with the Linux terminal and remote access.
+
+### Key Levels & Takeaways
+
+**Level 0-1: SSH Connection & Reading Files**
+- Learned how to SSH into a remote server using `ssh bandit0@bandit.labs.overthewire.org -p 2220`
+- Used `cat readme` to read the password for the next level
+- **Real-world use**: Basic remote server access needed in IT Support and SOC roles
+
+**Level 2: Handling Special Filenames**
+- File started with `-` so normal `cat` didn't work
+- Solution: `cat < -` or `cat ./-
+- **Learned**: How to handle tricky filenames safely
+
+**Level 3-5: Hidden Files & Spaces in Names**
+- Used `ls -a` to show hidden files
+- Handled filenames with spaces using quotes or tab completion
+- **Learned**: Importance of `ls -a` and proper quoting
+
+**Level 6-11: Finding Files**
+- Used `find`, `ls -l`, and `file` command to locate files by size, owner, or type
+- Practiced searching the entire filesystem
+- **Real-world use**: Quickly locating config files or suspicious files during troubleshooting
+
+**Overall from 0-11**:
+Built strong foundation in terminal navigation, file reading, and basic Linux commands. These skills make daily CLI work much faster.
 
