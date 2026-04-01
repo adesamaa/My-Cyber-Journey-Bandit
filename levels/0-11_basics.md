@@ -1,10 +1,15 @@
-# How to navigate
-#Levels 0-7
-these are still the basic and beginning level of bandit, most of the passwords can be found with commands like; ls, cat, file, cd, grep. 
-All you have to do is to apply the necessary flags required, e.g to list hidden files, you use "ls -a" command.
-
-#Levels 7-12
-this stretch of levels involved encoding, decoding and searxhing within files for clues.
-relevant commands to be used include: sort, uniq, strings, base64.
-
+# Levels 0-11: SSH Basics & File Navigation
+These levels build core terminal comfort.
+•  Level 0: Connect via SSH to the Bandit server (username bandit0, password bandit0).
+    •  Key takeaway: SSH syntax and remote login basics.
+    •  Real-world use: Remote server access in IT Support or SOC troubleshooting.
+•  Level 1–2: Reading files (`cat` readme), handling tricky filenames (file starting with -).
+    •  Key takeaway: `ls`, `cat`, and dealing with special characters in filenames.
+    •  Real-world use: Finding and reading config/logs when filenames are unusual.
+•  Level 3–5: Hidden files (`ls -a`), spaces in filenames, finding the human-readable file among many.
+    •  Key takeaway: `ls -a` for hidden files, quoting filenames with spaces.
+    •  Real-world use: Locating hidden config files or logs during investigations.
+•  Level 6–11: Finding files by size, owner, permissions, or location; basic string searching.
+    •  Key takeaway: `find`, `ls -l`, `file` command, and simple filtering.
+    •  Real-world use: Locating suspicious files or logs on a system quickly.
 
