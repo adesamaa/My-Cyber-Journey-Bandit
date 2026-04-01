@@ -1,7 +1,14 @@
-#Levels 20-24
-i started getting familiar with cron and crontab which is responsible for scheduling tasks in a linux system.
-level 24-25 was one of particular interest because it involved brute forcing by trying 1000 different combinations, a script had to be created to parse the digits as a loop until the correct password was gotten.
-
-#Levels 25-34
-this initially started with applying some knowledge of shell and how different shell can be used to start a session/terminal.
-we later progressed into retrieving items from a git repository provided, the command of interest was git command and i had to go through its man page to learn the various flag available with it and how to use them tpo retrieve the passwords
+# Levels 20-24: Advanced Concepts (SSH Keys, Git, Cron, Automation)
+These introduce more “real system admin” ideas.
+•  Level 20–22: Working with SSH keys instead of passwords.
+    •  Key takeaway: Generating and using SSH key pairs (ssh-keygen).
+    •  Real-world use: Secure remote access (common in DevOps/IT Support).
+•  Level 23–26: Restricted shells, escaping environments (e.g., using `vim` or more tricks), and custom scripts.
+    •  Key takeaway: Understanding shell restrictions and basic escape techniques.
+    •  Real-world use: Recognizing and bypassing limited environments in security testing or admin work.
+•  Level 27–30: Git basics (`git show`), `cron` jobs/scheduled tasks, and `setuid` binaries.
+    •  Key takeaway: Version control with `git`, `cron` for automation, and privilege concepts.
+    •  Real-world use: Managing scripts, understanding scheduled tasks, and basic privilege escalation awareness.
+•  Level 31–34: Final challenges involving variables, shell escaping, and putting everything together.
+    •  Key takeaway: Environment variables, advanced shell tricks.
+    •  Real-world use: Debugging scripts and understanding how shells behave in production systems.
